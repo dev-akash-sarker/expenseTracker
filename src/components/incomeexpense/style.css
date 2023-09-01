@@ -1,0 +1,31 @@
+.incomeExpense {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 25px 40px;
+  margin-top: 20px;
+}
+
+.incomeExpense .income h6,
+.incomeExpense .expense h6 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.incomeExpense .income h4 {
+  color: rgb(67, 245, 67);
+  font-weight: 700;
+  font-size: 20px;
+}
+.incomeExpense .expense h4 {
+  color: rgb(255, 89, 44);
+  font-weight: 700;
+  font-size: 20px;
+}
+.line {
+  width: 2px;
+  height: 50px;
+  background-color: red;
+}

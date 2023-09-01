@@ -1,0 +1,56 @@
+.transactionMain h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.transactionMain ul.list {
+  list-style: none;
+}
+
+.transactionMain ul.list li.minus {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+.minusflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.minusflex span {
+  font-weight: 600;
+}
+
+.delete-btn {
+  position: absolute;
+  left: -27px;
+  top: 0;
+  padding: 5px 10px;
+  background-color: rgb(255, 71, 65);
+  color: #fff;
+  border: none;
+  opacity: 0;
+}
+
+.minusex {
+  border-right: 3px solid rgb(255, 72, 72);
+}
+.plusex {
+  border-right: 3px solid rgb(72, 255, 102);
+}
+
+.delete-btn:hover,
+li:hover .delete-btn {
+  opacity: 1;
+}

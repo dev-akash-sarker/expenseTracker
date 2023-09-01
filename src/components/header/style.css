@@ -1,0 +1,7 @@
+.header-title h2 {
+  font-weight: 700;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
