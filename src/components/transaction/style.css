@@ -25,7 +25,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-right: 10px;
+  margin-right: 22px;
 }
 
 .minusflex span {
@@ -34,13 +34,28 @@
 
 .delete-btn {
   position: absolute;
-  left: -27px;
-  top: 0;
-  padding: 5px 10px;
+  right: 5px;
+  top: 4px;
+  padding: 3px 8px;
   background-color: rgb(255, 71, 65);
   color: #fff;
   border: none;
   opacity: 0;
+}
+
+ul.list::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+ul.list::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+ul.list::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #555555;
 }
 
 .minusex {

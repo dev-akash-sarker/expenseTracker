@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
 import "./style.css";
 import { GlobalContext } from "../../context/GlobalContext";
-export default function Transaction() {
+export default function Transaction({ transaction }) {
   const { transactions } = useContext(GlobalContext);
+  const { deleteTransaction } = useContext(GlobalContext);
 
   return (
     <div className="transactionMain">
@@ -21,7 +22,12 @@ export default function Transaction() {
                 </span>
               </div>
 
-              <button className="delete-btn">x</button>
+              <button
+                onClick={() => deleteTransaction(item.id)}
+                className="delete-btn"
+              >
+                x
+              </button>
             </li>
           </>
         ))}
